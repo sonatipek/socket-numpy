@@ -1,6 +1,40 @@
 # Socket Numpy - EN
 A web application that calculates the determinant of the matrices coming from the HTML file using Websocket with Numpy via Python and sends it to the HTML page and generates random numbers in the specified range.
 
+## Run on Your Computer
+**Note1:You must have Python installed on your computer.
+
+#### 1. Clone the project
+
+```bash
+  git clone https://github.com/sonatipek/socket-numpy.git
+```
+
+#### 2. Go to the project directory
+
+```bash
+  cd socket-numpy
+```
+
+#### 3. Install Python virtual environment
+```bash
+  python -m venv env
+```
+
+#### 4. Activate Python virtual environment and install the requirements while it is active
+```bash
+  env\Scripts\activate
+  pip install -r requirements.txt
+```
+
+#### 5. Start the FastAPI server by running socket_handlers.py with Python
+```bash
+  python socket_handlers.py
+```
+
+#### 6. Open the index.html page with your browser. That's all!
+
+
 ## Contribution - What Have I Changed?
 I made the application look more modern on the front side.
 - Both pages have been given a more modern look.
@@ -20,6 +54,39 @@ I made the application look more modern on the front side.
 
 # Socket Numpy - TR
 Websocket kullanarak HTML dosyasından gelen matrislerin determinantını Python üzerinden Numpy ile hesaplayan ve HTML sayfasına gönderen ve belirtilen aralıkta rastgele sayı üreten web uygulaması.
+
+## Bilgisayarınızda Çalıştırın
+**Not1: Bilgisayarınızda Python kurulu olmalıdır.
+
+#### 1. Projeyi klonlayın
+
+```bash
+  git clone https://github.com/sonatipek/socket-numpy.git
+```
+
+#### 2. Proje dizinine gidin
+
+```bash
+  cd socket-numpy
+```
+
+#### 3. Python venv'i yükleyin
+```bash
+  python -m venv env
+```
+
+#### 4. Python venv'i etkinleştirin ve etkin durumdayken gereksinimleri yükleyin
+```bash
+  env\Scripts\activate
+  pip install -r requirements.txt
+```
+
+#### 5. Python ile socket_handlers.py dosyasını çalıştırarak FastAPI sunucusunu başlatın
+```bash
+  python socket_handlers.py
+```
+
+#### 6. Tarayıcınızla index.html sayfasını açın. Hepsi bu kadar!
 
 ##  Katkı - Neleri Değiştirdim?
 Uygulamanın ön yüzünün daha modern görünmesini sağladım.
